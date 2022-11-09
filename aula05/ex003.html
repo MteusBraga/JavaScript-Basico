@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sexo</title>
+    <style>
+        /*Parte em CSS */
+        body{
+            background-color: rgb(135, 170, 167);
+            color:white; 
+            font: normal 25pt Arial;
+        }
+        h1{
+            color: rgb(145, 166, 224);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1> 
+    <p>Já me livrei da maldição</p>
+    <!-- parte em JavaScript -->
+    <script>
+        //prompt por padrao é string
+        //é necessario uma conversao
+        /* vale pra tudo
+        Number.parseInt(n)
+        parseInt(n)
+        Number()
+        */
+        var n1 = parseFloat(window.prompt("Digite um numero: "))
+        var n2 = Number(window.prompt("Digite outro numero: "))
+        var n3 = Number.parseInt(window.prompt("Digite outro numero: "))
+        var s = n1 + n2 + n3
+        s.toString() //transformar em string
+        //String(s) tambem funciona
+        window.alert(`A soma de ${n1}, ${n2} e ${n3}, é ${s}.`)
+        //string + string) concatenaçao
+        //number + number) adicao
+    </script>
+</body>
+</html>
