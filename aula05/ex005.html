@@ -14,13 +14,18 @@
     </style>
 </head>
 <body>
-    <h1>Sexo</h1>
-    <p>aqui vai um resultado</p>
-    <p>Apredendo <strong>DOM</strong> em JS</p>
-    <div>Clicaaaaaaaaaaaaaaaaaa</div>
+    <div id ="msg"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, sequi. Sint ipsum aliquam omnis alias consectetur corrupti neque temporibus esse molestiae impedit, officia, recusandae deserunt dignissimos hic iste nam non!</div>
+    <div id = "msg2">Lortetunus alie e quis nisi?</div>
     <script>
-        var p1 = window.document.getElementsByTagName('p')[0]
-        window.document.write('esta escrito assim: ' + p1.innerText)
+       var d = window.document.getElementById('msg')
+       //var d = window.document.getElementsByClassName('msg')
+       //var d = window.document.getElementByTagName('msg')
+       d.style.background = 'green'
+
+        /*
+       var d2 = window.document.querySelector('div.msg')
+       d2.style.background = 'green'
+       */
     </script>
 </body>
 </html>
